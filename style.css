@@ -1,0 +1,182 @@
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.container1 {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 140px;
+    gap: 45px;
+    color: #E5E7EB;
+    font-size: 18px;
+    flex: 1;
+}
+
+.header {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 140px;
+    gap: 23px;
+    background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.one {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.two {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.three {
+    align-self: self-start;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+}
+
+
+    
+
+.child1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+
+.container2 {
+    display: flex;
+    padding: 50px 140px 85px 140px;
+
+}
+
+.parent2 {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex: 1 1;
+}
+
+.child2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    min-width: 50px;
+}
+
+.four {
+    height: 150px;
+    width: 100px;
+
+}
+
+
+.five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding: 50px 140px;
+}
+
+
+
+
+
+.container3 {
+    display: flex;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    justify-content: center;
+    align-self: center;
+    padding: 50px 140px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.six {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: end;
+}
+
+
+
+
+.container4 {
+    display: flex;
+    background-color: white;
+    padding: 140px;
+}
+
+.parent4 {
+    display: flex;
+    background-color: #3882F6;
+    padding: 70px 100px;
+    flex: 1;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.seven {
+    color: #F9FAF8;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.eight {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.nine {
+    background-color: #3882F6;
+    border-width: 4px;
+    border-color: white;
+    color: white;
+    padding: 2px 7px;
+    width: 100px;
+    border-radius: 5px;
+   
+}
+
+
+
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    padding: 50px 140px;
+    justify-content: center;
+    align-items: center;
+}
